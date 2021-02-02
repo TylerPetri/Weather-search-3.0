@@ -1,0 +1,73 @@
+h1 {
+  text-align: center;
+  background-color: rgb(66, 68, 73);
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+}
+
+#citySearch {
+  width: 70%;
+}
+
+#infoBtn {
+  border: 2px solid royalblue;
+  border-radius: 25%;
+  background-color: royalblue;
+  color: whitesmoke;
+}
+
+.liBtn {
+  min-width: 222px;
+}
+
+.cardUl {
+  list-style: none;
+  padding-left: 0;
+}
+
+#text-List {
+  margin-top: 15px;
+  list-style: none;
+  padding-left: 0;
+  line-height: 200%;
+}
+
+#text-List button {
+  background-color: rgb(228, 228, 255);
+  border-radius: 5px;
+  font-weight: bold;
+  border: 1px rgb(255, 124, 233) solid;
+  padding-left: 10px;
+  margin: 5px 0;
+}
+
+#text-List button:hover {
+  background-color: teal !important;
+  color: rgb(255, 255, 106);
+  font-size: 22px;
+}
+
+#text-List button:focus {
+  outline-color: rgb(255, 124, 233);
+  background-color: teal !important;
+  color: rgb(255, 255, 106);
+  font-size: 22px;
+}
+
+#clearBtn {
+  background-color: #807f7e;
+  color: rgb(208, 212, 250);
+  border-radius: 5px;
+}
+
+#clearBtn:hover {
+  outline-color: black;
+  color: black;
+  background-color: red !important;
+}
+
+#clearBtn:focus {
+  outline: none;
+}
